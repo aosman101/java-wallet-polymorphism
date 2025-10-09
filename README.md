@@ -4,13 +4,13 @@ A tiny Java OOP project that models a **Wallet** holding different **Card** type
 
 ## Contents
 
-- `two/Card.java` — Base class with common behaviour for cards  
-- `two/IDCard.java` — Extends `Card` with an ID number  
-- `two/DriverLicense.java` — Extends `IDCard` with an expiration year and `isExpired()`  
-- `two/CallingCard.java` — Extends `Card` with number + PIN  
-- `two/Wallet.java` — Holds up to two `Card` objects and formats them  
-- `two/CardDriver.java` — `main` method: basic demo for `Card` + kicks off wallet test  
-- `two/WalletTester.java` — Builds sample cards and prints `Wallet#formatCards()`
+- `Card.java` — Base class with common behaviour for cards  
+- `IDCard.java` — Extends `Card` with an ID number  
+- `DriverLicense.java` — Extends `IDCard` with an expiration year and `isExpired()`  
+- `tCallingCard.java` — Extends `Card` with number + PIN  
+- `Wallet.java` — Holds up to two `Card` objects and formats them  
+- `CardDriver.java` — `main` method: basic demo for `Card` + kicks off wallet test  
+- `WalletTester.java` — Builds sample cards and prints `Wallet#formatCards()`
 
 ---
 
@@ -30,3 +30,21 @@ It’s a compact example for students/interview-prep that shows:
 - Java 11+ (any modern JDK is fine)
 
 ### Layout (recommended)
+
+├─ src/
+
+│ ├─ Card.java
+
+│ ├─ IDCard.java
+
+│ ├─ DriverLicense.java
+
+│ ├─ CallingCard.java
+
+│ ├─ Wallet.java
+
+│ ├─ CardDriver.java
+
+│ └─ WalletTester.java
+
+└─ README.md
