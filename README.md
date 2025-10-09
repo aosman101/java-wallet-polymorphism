@@ -1,6 +1,3 @@
-# JavaWalletPolymorphism
-A tiny Java OOP demo: a Wallet holding different Card types (CallingCard, IDCard, DriverLicense) to illustrate inheritance, overriding, and polymorphism.
-
 # Java Wallet — Polymorphism Demo
 
 A tiny Java OOP project that models a **Wallet** holding different **Card** types to demonstrate inheritance, method overriding, and polymorphism.
