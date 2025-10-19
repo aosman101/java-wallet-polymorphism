@@ -1,6 +1,6 @@
 # Java Wallet — Polymorphism Demo
 
-A Java OOP project that models a **Wallet** holding different **Card** types to demonstrate inheritance, method overriding, and polymorphism.
+A Java OOP project models a **Wallet** that holds different **Card** types, demonstrating inheritance, method overriding, and polymorphism.
 
 ## Contents
 
@@ -16,7 +16,7 @@ A Java OOP project that models a **Wallet** holding different **Card** types to 
 
 ## Why this project?
 
-It’s a compact example for students/interview-prep that shows:
+This is a concise example for students and interview preparation that demonstrates:
 - Class hierarchies and **inheritance**
 - **Method overriding** (`format()`, `isExpired()`).
 - **Polymorphism** (storing heterogeneous `Card` types in `Wallet`).
