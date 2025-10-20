@@ -4,11 +4,11 @@ A Java OOP project models a **Wallet** that holds different **Card** types, demo
 
 ## Contents
 
-- `Card.java` — Base class with common behaviour for cards.
-- `IDCard.java` — Extends `Card` with an ID number.
-- `DriverLicense.java` — Extends `IDCard` with an expiration year and `isExpired()`.
-- `tCallingCard.java` — Extends `Card` with number + PIN.
-- `Wallet.java` — Holds up to two `Card` objects and formats them. 
+- `Card.java` — This is a base class that provides common functionality for cards.
+- `IDCard.java` — Enhances the `Card` class by adding a unique ID number.
+- `DriverLicense.java` — Enhances the `IDCard` by adding an expiration year and a method called `isExpired()`.
+- `tCallingCard.java` — This extends the `Card` functionality by adding a number and a PIN.
+- `Wallet.java` — Stores up to two `Card` objects and formats their display. 
 - `CardDriver.java` — `main` method: basic demo for `Card` + kicks off wallet test.
 - `WalletTester.java` — Builds sample cards and prints `Wallet#formatCards()`.
 
