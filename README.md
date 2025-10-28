@@ -17,10 +17,10 @@ A Java OOP project models a **Wallet** that holds different **Card** types, demo
 ## Why this project?
 
 This is a concise example for students and interview preparation that demonstrates:
-- Class hierarchies and **inheritance**
+- Class hierarchies and **inheritance**.
 - **Method overriding** (`format()`, `isExpired()`).
 - **Polymorphism** (storing heterogeneous `Card` types in `Wallet`).
-- Simple driver program structure.
+- Basic Structure of a Driver Program.
 
 ---
 
